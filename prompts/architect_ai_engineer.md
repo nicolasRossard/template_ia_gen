@@ -144,7 +144,7 @@ import httpx
 from typing import Optional
 from pydantic import BaseModel, Field
 
-from app.src.model.ports.llm_port import LLMPort, LLMRequest, LLMResponse
+from src.model.ports.llm_port import LLMPort, LLMRequest, LLMResponse
 
 class OllamaConfig(BaseModel):
     """

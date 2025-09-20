@@ -7,7 +7,7 @@ from typing import Optional, Dict, Any, Tuple
 
 from pydantic import BaseModel, Field
 
-from src.model.pdf_summarizer import SummaryRequest
+from src.model.domain.pdf_summarizer import SummaryRequest
 
 
 class ConsoleView:
