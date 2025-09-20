@@ -1,0 +1,5 @@
+app/logs
+.env
+.github
+**/__pycache__/
+ollama_data/
