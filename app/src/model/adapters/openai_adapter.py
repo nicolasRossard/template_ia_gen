@@ -8,7 +8,7 @@ from typing import Dict, Any, Optional
 from openai import AsyncOpenAI
 from pydantic import BaseModel, Field
 
-from src.model.llm_port import LLMPort, LLMRequest, LLMResponse
+from src.model.ports.llm_port import LLMPort, LLMRequest, LLMResponse
 
 
 class OpenAIConfig(BaseModel):

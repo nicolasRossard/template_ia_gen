@@ -6,10 +6,10 @@ from typing import Optional, Dict, Any
 
 from pydantic import BaseModel, Field, ConfigDict
 
-from src.model.pdf_extractor import PDFExtractor, PDFExtractorConfig, PDFExtractResult
-from src.model.llm_port import LLMPort, LLMRequest, LLMResponse
-from src.model.ollama_adapter import OllamaAdapter, OllamaConfig
-from src.model.openai_adapter import OpenAIAdapter, OpenAIConfig
+from src.model.domain.pdf_extractor import PDFExtractor, PDFExtractorConfig, PDFExtractResult
+from src.model.ports.llm_port import LLMPort, LLMRequest, LLMResponse
+from src.model.adapters.ollama_adapter import OllamaAdapter, OllamaConfig
+from src.model.adapters.openai_adapter import OpenAIAdapter, OpenAIConfig
 
 
 class SummaryRequest(BaseModel):

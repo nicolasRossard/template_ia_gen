@@ -5,7 +5,7 @@ import logging
 import asyncio
 from typing import Optional
 
-from src.model.pdf_summarizer import PDFSummarizer, SummaryRequest, SummaryResponse
+from src.model.domain.pdf_summarizer import PDFSummarizer, SummaryRequest, SummaryResponse
 from src.view.console_view import ConsoleView
 
 

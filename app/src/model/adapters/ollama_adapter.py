@@ -8,7 +8,7 @@ from typing import Dict, Any, Optional
 import httpx
 from pydantic import BaseModel, Field
 
-from src.model.llm_port import LLMPort, LLMRequest, LLMResponse
+from src.model.ports.llm_port import LLMPort, LLMRequest, LLMResponse
 
 
 class OllamaConfig(BaseModel):

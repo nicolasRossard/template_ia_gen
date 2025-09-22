@@ -9,7 +9,7 @@ from typing import Dict, Any, Optional
 from fastapi import APIRouter, HTTPException, File, UploadFile, Form
 from pydantic import BaseModel, Field
 
-from src.model.pdf_summarizer import PDFSummarizer, SummaryRequest, SummaryResponse
+from src.model.domain.pdf_summarizer import PDFSummarizer, SummaryRequest, SummaryResponse
 
 
 # API request and response models
