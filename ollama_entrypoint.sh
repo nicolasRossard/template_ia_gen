@@ -19,6 +19,11 @@ ollama pull nomic-embed-text:v1.5
 ollama pull gemma3:270m
 echo "Done."
 
+
+#echo "Retrieving model (gemma3:270m)..."
+ollama pull llava:7b
+echo "Done."
+
 # Vision for documents ibm/granite3.3-vision:2b
 # Wait for Ollama process to finish.
 wait $pid
